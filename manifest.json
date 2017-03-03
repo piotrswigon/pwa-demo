@@ -1,0 +1,30 @@
+{
+  "name": "Piotr's PWA Demo",
+  "short_name": "PWA Demo",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#3f51b5",
+  "background_color": "#ececec",
+  "icons": [
+    {
+      "src": "images/moustache_64.png",
+      "sizes": "64/64",
+      "type": "image/png"
+    },
+    {
+      "src": "images/moustache_128.png",
+      "sizes": "128/128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/moustache_256.png",
+      "sizes": "256/256",
+      "type": "image/png"
+    },
+    {
+      "src": "images/moustache_512.png",
+      "sizes": "512/512",
+      "type": "image/png"
+    }
+  ]
+}
