@@ -1,8 +1,8 @@
 var CACHE_NAME = 'piotr-pwa-cache-v1';
 var urlsToCache = [
-  '/',
-  '/style.css',
-  '/script.js'
+  '/pwa-demo/',
+  '/pwa-demo/style.css',
+  '/pwa-demo/script.js'
 ];
 
 self.addEventListener('install', function(event) {
