@@ -4,6 +4,11 @@ body {
   background-color: rgb(236, 236, 236);
 }
 
+a {
+  text-decoration: none;
+  color: rgb(63, 81, 181);
+}
+
 header {
   padding: 15px;
   color: white;
