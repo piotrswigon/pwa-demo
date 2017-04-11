@@ -12,6 +12,8 @@ a {
 h1 {
   margin: 15px;
   text-align: center;
+  color: #3f51b5;
+  font-weight: bolder;
 }
 
 img {
