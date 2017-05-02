@@ -1,7 +1,7 @@
 {
   "name": "Piotr's Splashscreen PWA Demo",
   "short_name": "Splashscreen PWA",
-  "start_url": "/pwa-demo/splashscreen/",
+  "start_url": "/pwa-demo/index-splash/",
   "display": "standalone",
   "theme_color": "#4db6ac",
   "background_color": "#fafafa",
