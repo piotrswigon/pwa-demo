@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Splashscreen Demo</title>
+    <link rel="manifest" href="manifest.json"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+  </head>
+  <body>
+    <div id="splashscreen">
+      <div class="logobox">
+        <img class="logo" src="../images/healthy_256.png" />
+        <h1>Well-being Webapp</h1> 
+      </div>
+    </div>
+    <img class="logo" src="../images/healthy_128.png" />
+    <h1>Well-being Webapp</h1>
+    <article>Some content</article>
+    <article>Some more content!</article>
+    <article><b>Even more</b> content!!</article>
+    <script src="../script.js"></script>
+    <script>
+      setTimeout(
+        function() {
+          document.getElementById('splashscreen').style.display='none';
+        }, 1000);
+    </script>
+  </body>
+</html>

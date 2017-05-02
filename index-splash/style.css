@@ -1,0 +1,66 @@
+body {
+  background-color: #FAFAFA;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),
+              0 3px 1px -2px rgba(0,0,0,.2),
+              0 1px 5px 0 rgba(0,0,0,.12);
+  padding: 20px;
+  margin: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 10px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #4db6ac;
+  font-family: 'Lobster', cursive;
+}
+
+#splashscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fafafa;
+  padding-top: 20%;
+  animation: slide 1s ease;
+}
+
+@keyframes slide {
+  0% {padding-top: 20%;}
+  100% {padding-top: 0%;}
+}
+
+.logobox {
+  animation: spin 1s ease;
+}
+
+#splashscreen .logo {
+  width: 60%;
+  animation: spinandshrink 1s ease;
+}
+
+@keyframes spinandshrink { 
+  0% { 
+    transform: rotate(0deg); 
+    width: 256px;
+  }
+  100% { 
+    transform: rotate(360deg); 
+    width: 128px;
+  }
+}
+
+#splashscreen h1 {
+  padding-bottom: 100px;
+}

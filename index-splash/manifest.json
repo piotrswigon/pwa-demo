@@ -1,0 +1,30 @@
+{
+  "name": "Piotr's Splashscreen PWA Demo",
+  "short_name": "Splashscreen PWA",
+  "start_url": "/pwa-demo/splashscreen/",
+  "display": "standalone",
+  "theme_color": "#4db6ac",
+  "background_color": "#fafafa",
+  "icons": [
+    {
+      "src": "/pwa-demo/images/healthy_32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-demo/images/healthy_64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-demo/images/healthy_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-demo/images/healthy_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
