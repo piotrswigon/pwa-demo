@@ -33,7 +33,7 @@ h1 {
   bottom: 0;
   background: #fafafa;
   padding-top: 20%;
-  animation: slide 1s ease;
+  animation: slide 1s ease forwards;
 }
 
 @keyframes slide {
@@ -47,7 +47,7 @@ h1 {
 
 #splashscreen .logo {
   width: 60%;
-  animation: spinandshrink 1s ease;
+  animation: spinandshrink 1s ease forwards;
 }
 
 @keyframes spinandshrink { 
