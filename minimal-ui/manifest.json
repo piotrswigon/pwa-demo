@@ -3,7 +3,7 @@
   "short_name": "Minimal UI PWA",
   "start_url": "/pwa-demo/minimal-ui/",
   "display": "minimal-ui",
-  "theme_color": "#3f51b5",
+  "theme_color": "#ef6c00",
   "background_color": "#ececec",
   "icons": [
     {
