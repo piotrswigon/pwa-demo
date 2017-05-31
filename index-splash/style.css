@@ -33,6 +33,9 @@ h1 {
   bottom: 0;
   background: #fafafa;
   padding-top: 20%;
+}
+
+#splashscreen.animate {
   animation: slide 1s ease forwards;
 }
 
@@ -47,6 +50,9 @@ h1 {
 
 #splashscreen .logo {
   width: 60%;
+}
+
+#splashscreen.animate .logo {
   animation: spinandshrink 1s ease forwards;
 }
 
