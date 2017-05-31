@@ -44,12 +44,8 @@ h1 {
   100% {padding-top: 0%;}
 }
 
-.logobox {
-  animation: spin 1s ease;
-}
-
 #splashscreen .logo {
-  width: 60%;
+  width: 256px;
 }
 
 #splashscreen.animate .logo {
@@ -70,3 +66,4 @@ h1 {
 #splashscreen h1 {
   padding-bottom: 100px;
 }
+
