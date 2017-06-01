@@ -36,7 +36,7 @@ h1 {
 }
 
 #splashscreen.animate {
-  animation: slide 1s ease forwards;
+  animation: slide 1s ease-in-out forwards;
 }
 
 @keyframes slide {
@@ -49,7 +49,7 @@ h1 {
 }
 
 #splashscreen.animate .logo {
-  animation: spinandshrink 1s ease forwards;
+  animation: spinandshrink 1s ease-in-out forwards;
 }
 
 @keyframes spinandshrink { 
