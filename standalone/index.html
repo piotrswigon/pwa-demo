@@ -26,6 +26,14 @@
       <section><a href="../minimal-ui/">To Minimal-UI PWA</a></section>
       <section><a href="https://www.youtube.com/watch?v=dq8YcRi7DD4">YouTube link</a></section>
       <section><a href="https://www.youtube.com/watch?v=dq8YcRi7DD4" target="_blank">YouTube _blank link</a></section>
+      <section>
+        <button type=botton onclick="openBlank()">open about:blank</button>
+        <button type=botton onclick="openBlobURL()">open blob url</button>
+        <script>
+          var openBlank = () => open('about:blank').document.write('text');
+          var openBlobURL = () =>  open(URL.createObjectURL(new Blob(['text'])));
+        </script>
+      </section>
     </main>
     <script src="../script.js"></script>
   </body>
