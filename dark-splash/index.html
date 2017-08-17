@@ -81,10 +81,14 @@
     <script>
       function start() {
         let splashscreen = document.getElementById('splash');
-        splashscreen.className += " animate";
-        setTimeout(function() {
-          splashscreen.style.display='none';
-        }, 1000);
+        if (window.matchMedia('(display-mode: standalone)').matches) {
+          splashscreen.className += " animate";
+          setTimeout(function() {
+            splashscreen.parentNode.removeChild(splashscreen);
+          }, 1000);
+        } else {
+          splashscreen.parentNode.removeChild(splashscreen);
+        }
       };
    </script>
   </body>
