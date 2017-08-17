@@ -25,19 +25,6 @@
       </div>
       <div class="logo-text">ABISKO</div>
     </div>
-    <script>
-      function start() {
-        let splashscreen = document.getElementById('splash');
-        if (window.matchMedia('(display-mode: standalone)').matches) {
-          splashscreen.className += " animate";
-          setTimeout(function() {
-            splashscreen.parentNode.removeChild(splashscreen);
-          }, 1000);
-        } else {
-          splashscreen.parentNode.removeChild(splashscreen);
-        }
-      };
-   </script>
     <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
@@ -91,5 +78,20 @@
       <i class="material-icons">add</i>
     </button>
     <script src="../script.js"></script>
+    <script>
+      const splashscreen = document.getElementById('splash');
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+      if (!isStandalone) {
+        splashscreen.parentNode.removeChild(splashscreen);
+      }
+      function start() {
+        if (isStandalone) {
+          splashscreen.className += " animate";
+          setTimeout(function() {
+            splashscreen.parentNode.removeChild(splashscreen);
+          }, 1000);
+        }
+      };
+   </script>
   </body>
 </html>
