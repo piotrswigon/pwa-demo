@@ -23,7 +23,7 @@ body {
 
 @keyframes splash-hide {
   0% {opacity: 1}
-  50% {opacity: 1}
+  40% {opacity: 1}
   100% {opacity: 0}
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .animate .logo-text {
-  animation: logo-hide .5s ease-in forwards;
+  animation: logo-hide .4s ease-in forwards;
 }
 
 .logo {
@@ -47,7 +47,7 @@ body {
 }
 
 .animate .logo {
-  animation: logo-hide .5s ease-in forwards;
+  animation: logo-hide .4s ease-in forwards;
 }
 
 @keyframes logo-hide {
@@ -98,7 +98,7 @@ body {
 }
 
 .animate .bars > * {
-  animation: bars-stretch 1s ease-in forwards;
+  animation: bars-stretch .8s ease-in forwards;
 }
 
 @keyframes bars-stretch {
