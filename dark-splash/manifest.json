@@ -4,7 +4,7 @@
   "start_url": "/pwa-demo/dark-splash/",
   "splash_screen_url": "/pwa-demo/dark-splash/splash.html",
   "display": "standalone",
-  "theme_color": "#212121",
+  "theme_color": "#9e9e9e",
   "background_color": "#212121",
   "icons": [
     {
