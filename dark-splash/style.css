@@ -1,0 +1,156 @@
+body {
+  background-color: #FAFAFA;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.splash {
+  background: #212121;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+}
+
+.animate.splash {
+  animation: splash-hide 1s ease-in forwards;
+}
+
+@keyframes splash-hide {
+  0% {opacity: 1}
+  50% {opacity: 1}
+  100% {opacity: 0}
+}
+
+.logo-text {
+  color: #616161;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  letter-spacing: 10;
+  position: relative;
+  top: 80%;
+}
+
+.animate .logo-text {
+  animation: logo-hide .5s ease-in forwards;
+}
+
+.logo {
+  position: relative;
+  top: 35%;
+}
+
+.animate .logo {
+  animation: logo-hide .5s ease-in forwards;
+}
+
+@keyframes logo-hide {
+  0% {opacity: 1}
+  100% {opacity: 0}
+}
+
+.white-triangle {
+  border-bottom: 140px white solid;
+  border-left: 80px transparent solid;
+  border-right: 80px transparent solid;
+  margin-left: -80px;
+  width:0;
+  position: absolute;
+}
+
+.gray-triangle {
+  border-bottom: 87px #eeeeee solid;
+  border-left: 50px transparent solid;
+  border-right: 50px transparent solid;
+  margin-left: -20px;
+  margin-top: 53px;
+  width:0;
+  position: absolute;
+}
+
+.black-triangle {
+  border-bottom: 35px #212121 solid;
+  border-left: 20px transparent solid;
+  border-right: 20px transparent solid;
+  margin-left: -20px;
+  margin-top: 105px;
+  width:0;
+  position: absolute;
+}
+
+.bars {
+  position: absolute;
+  right: -92px;
+  transform: rotate(-45deg);
+}
+
+.bars > * {
+  float: right;
+  height: 16px;
+  margin-top: 8px;
+  clear: both;
+}
+
+.animate .bars > * {
+  animation: bars-stretch 1s ease-in forwards;
+}
+
+@keyframes bars-stretch {
+  0% {transform: scaleX(1) scaleY(1);}
+  100% {transform: scaleX(5) scaleY(0);}
+}
+
+.bars > :nth-child(1) {
+  background: white;
+  width: 190px;
+}
+
+.bars > :nth-child(2) {
+  background: #f44336;
+  width: 240px;
+}
+
+.bars > :nth-child(3) {
+  background: white;
+  width: 340px;
+}
+
+.bars > :nth-child(4) {
+  background: #29b6f6;
+  width: 280px;
+}
+
+.bars > :nth-child(5) {
+  background: #f44336;
+  width: 300px;
+}
+
+.bars > :nth-child(6) {
+  background: white;
+  width: 230px;
+}
+
+.mdl-layout__drawer-button i {
+  margin-top: 12px;
+}
+
+.mdl-card {
+  width: initial !important;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+.button-fab {
+  position: fixed !important;
+  bottom: 40px;
+  right: 40px;
+  z-index: 8;
+}
