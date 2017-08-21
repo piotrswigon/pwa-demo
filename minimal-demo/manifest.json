@@ -1,0 +1,25 @@
+{
+  "name": "Teal Tick",
+  "short_name": "Teal Tick",
+  "start_url": "/pwa-demo/minimal-demo/",
+  "display": "minimal-ui",
+  "theme_color": "#009688",
+  "background_color": "#efefef",
+  "icons": [
+    {
+      "src": "/pwa-demo/images/tick_64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-demo/images/tick_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-demo/images/tick_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+  ]
+}

@@ -1,0 +1,19 @@
+.mdl-card {
+  width: initial;
+  margin: 20px 20px 0;
+  min-height: initial;
+  display: block;
+  overflow: initial;
+}
+
+.mdl-layout__header-row {
+  padding: 0 16px 0 36px !important;
+}
+
+.mdl-mega-footer {
+  margin-top: 20px;
+}
+
+body {
+  background: #efefef;
+}
