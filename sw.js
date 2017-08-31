@@ -1,6 +1,2 @@
-self.addEventListener('install', function(e) {
-});
-
-self.addEventListener('fetch', function(e) {
-  e.respondWith(fetch(e.request));
-});
+self.addEventListener('install', e => {});
+self.addEventListener('fetch', e => e.respondWith(fetch(e.request)));
