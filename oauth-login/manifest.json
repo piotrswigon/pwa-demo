@@ -1,0 +1,30 @@
+{
+  "name": "OAuth Login Test",
+  "short_name": "OAuth test",
+  "start_url": "/pwa-demo/oauth-login/",
+  "display": "standalone",
+  "theme_color": "#ef6c00",
+  "background_color": "#ececec",
+  "icons": [
+    {
+      "src": "/pwa-demo/images/moustache_64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-demo/images/moustache_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-demo/images/moustache_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-demo/images/moustache_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
