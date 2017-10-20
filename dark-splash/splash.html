@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
   </head>
   <body>
-    <div class="splash">
+    <div class="splash" id="splash">
       <div class="bars">
         <div></div>
         <div></div>
@@ -22,5 +22,12 @@
       </div>
       <div class="logo-text">ABISKO</div>
     </div>
+    <script>
+      document.getElementById('splash').onclick = changeColor;   
+
+      function changeColor() {
+        this.style.backgroundColor = 'red'
+      }     
+    </script>
   </body>
 </html>
