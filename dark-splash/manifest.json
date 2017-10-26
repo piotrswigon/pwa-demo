@@ -2,7 +2,7 @@
   "name": "Abisko",
   "short_name": "Abisko",
   "start_url": "./#splash",
-  "splash_screen_url": "splash.html",
+  "splash_screen_url": "splash_.html",
   "display": "standalone",
   "theme_color": "#9e9e9e",
   "background_color": "#212121",
