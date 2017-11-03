@@ -42,7 +42,9 @@
       if (window.location.hash === '#cameBack') {
         document.getElementById("success").style.display = "block";
       }
-      document.getElementById("continue").value = window.location.href;
+      let url = window.location.href;
+      url = url.substr(0, url.indexOf('#'));
+      document.getElementById("continue").value = url;
     </script>
     <script src="../script.js"></script>
   </body>
