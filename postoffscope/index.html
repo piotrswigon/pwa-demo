@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Post Off Scope</title>
+    <link rel="manifest" href="/pwa-demo/postoffscope/manifest.json"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+  </head>
+  <body>
+    <form action="https://redirectonpost.appspot.com/" method = "post">
+      <input id="continue" type="hidden" name="continue"/>
+      <input type="submit" value="HTTP Post off scope and a redirect back!" />
+    </form>
+    <script>
+      document.getElementById("continue").value = window.location.href;
+    </script>
+    <script src="../script.js"></script>
+  </body>
+</html>
