@@ -3,6 +3,7 @@
   "short_name": "Splashscreen PWA",
   "start_url": "/pwa-demo/index-splash/",
   "splash_screen_url": "/pwa-demo/index-splash/splash.html",
+  "orientation": "portrait",
   "display": "standalone",
   "theme_color": "#4db6ac",
   "background_color": "#fafafa",
