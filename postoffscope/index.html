@@ -43,7 +43,7 @@
         document.getElementById("success").style.display = "block";
       }
       let url = window.location.href;
-      url = url.substr(0, url.indexOf('#'));
+      if (url.indexOf('#') >= 0) url = url.substr(0, url.indexOf('#'));
       document.getElementById("continue").value = url;
     </script>
     <script src="../script.js"></script>
