@@ -7,6 +7,11 @@
       body {
         text-align: center;
       }
+      h1 {
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+      }
       input {
         background-color: #1976d2;
         color: white;
@@ -16,6 +21,7 @@
         padding: 16px;
         margin: 16px;
         font-size: 16px;
+        cursor: pointer;
       }
       .success {
         color: #00701a;
@@ -26,6 +32,7 @@
     </style>
   </head>
   <body>
+    <h1>Let's test sending a POST request to an off-scope URL</h1>
     <form action="https://redirectonpost.appspot.com/" method = "post">
       <input id="continue" type="hidden" name="continue"/>
       <input type="submit" value="HTTP Post off scope and a redirect back!" />
