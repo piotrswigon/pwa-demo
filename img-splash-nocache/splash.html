@@ -3,25 +3,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
     <style>
       body {
-        background-color: red;
-        position: relative;
         margin: 0;
         padding: 0;
+        background-color: #212121;
       }
-      #background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
+      img {
+          height:auto;
+          width:auto;
+          max-height:100vh;
       }
     </style>
   </head>
   <body>
-    <div id="background"></div>
+    <img></img>
     <script>
-      document.getElementById('background').style.background = `url("https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg?x=${Math.random()}") no-repeat center center`;
-      document.getElementById('background').style.backgroundSize = 'cover';
+      // Avoid caching.
+      document.getElementsByTagName("img")[0].src = `https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg?x=${Math.random()}`;
     </script>
   </body>
 </html>
