@@ -4,17 +4,24 @@
     <style>
       body {
         background-color: red;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+      }
+      #background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
       }
     </style>
   </head>
   <body>
+    <div id="background"></div>
     <script>
-      // Avoid caching to make loading of the large image visible.
-      document.body.style.backgroundImage =
-          `url('https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg?x=${Math.random()}')`;
+      document.getElementById('background').style.background = `url("https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg?x=${Math.random()}") no-repeat center center`;
+      document.getElementById('background').style.backgroundSize = 'cover';
     </script>
   </body>
 </html>
