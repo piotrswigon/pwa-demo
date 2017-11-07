@@ -1,7 +1,7 @@
 {
   "name": "Piotr's Minimal UI PWA Demo",
   "short_name": "Minimal UI PWA",
-  "start_url": "/pwa-demo/minimal-ui/",
+  "start_url": "./",
   "display": "minimal-ui",
   "theme_color": "#ef6c00",
   "background_color": "#ececec",

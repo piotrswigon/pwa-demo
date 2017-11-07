@@ -1,7 +1,7 @@
 {
   "name": "Piotr's Splashscreen PWA Demo",
   "short_name": "Splashscreen PWA",
-  "start_url": "/pwa-demo/index-splash/",
+  "start_url": "./",
   "splash_screen_url": "/pwa-demo/index-splash/splash.html",
   "orientation": "portrait",
   "display": "standalone",

@@ -1,7 +1,7 @@
 {
   "name": "OAuth Login Test",
   "short_name": "OAuth test",
-  "start_url": "/pwa-demo/oauth-login/",
+  "start_url": "./",
   "display": "standalone",
   "theme_color": "#ef6c00",
   "background_color": "#ececec",

@@ -1,7 +1,7 @@
 {
   "name": "Posting off scope",
   "short_name": "Posting off scope",
-  "start_url": "/pwa-demo/postoffscope/",
+  "start_url": "./",
   "display": "standalone",
   "theme_color": "#1976d2",
   "background_color": "#ffffff",

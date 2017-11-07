@@ -1,7 +1,7 @@
 {
   "name": "Teal Tick",
   "short_name": "Teal Tick",
-  "start_url": "/pwa-demo/minimal-demo/",
+  "start_url": "./",
   "display": "minimal-ui",
   "theme_color": "#009688",
   "background_color": "#efefef",
