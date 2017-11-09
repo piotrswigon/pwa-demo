@@ -15,6 +15,12 @@
     </style>
     <script>
       window.addEventListener("load", () => {
+        console.log("load");
+        window.requestAnimationFrame(function() {
+          window.requestAnimationFrame(function() {
+            console.log("doubleframe");
+          });
+        });
         // To see the timing of load event vs. image painting.
         document.body.style.backgroundColor = 'red';
       });
