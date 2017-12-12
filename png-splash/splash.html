@@ -13,6 +13,10 @@
     </style>
   </head>
   <body>
-    <img src="../images/snowman.png"></img>
+    <img></img>
+    <script>
+      // Avoid caching.
+      document.getElementsByTagName("img")[0].src = `../images/snowman.png?x=${Math.random()}`;
+    </script>
   </body>
 </html>
